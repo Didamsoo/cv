@@ -964,6 +964,8 @@
         }
 
         /* Contact Section */
+
+
         .contact {
             background-color: white;
             position: relative;
@@ -1031,6 +1033,21 @@
             color: #555;
             margin-bottom: 0;
         }
+
+
+        .contact-item a.contact-content {
+            color: inherit; /* Conserve la couleur du texte */
+            transition: var(--transition);
+        }
+
+        .contact-item a.contact-content:hover {
+            color: var(--primary-color);
+        }
+
+        .contact-item a.contact-content:hover p {
+            text-decoration: underline;
+        }
+
 
         /*
          * Survol de la case Email :
@@ -1452,10 +1469,8 @@
             <div class="section-title">
                 <h2>Synthèse Professionnelle</h2>
             </div>
-            <p class="animate-fadeInUp">
-                Entrepreneur aguerri doté d'une capacité d'adaptation exceptionnelle et d'un talent avéré 
-                pour atteindre des objectifs ambitieux. Passionné par les défis commerciaux, je souhaite mettre mon expertise en business development 
-                au service d'une entreprise innovante en pleine croissance.
+            <p class="animate-fadeInUp" style="text-align: center; max-width: 900px; margin-left: auto; margin-right: auto;">
+                Commercial passionné, je suis toujours prêt à dépasser mes objectifs et à sortir de ma zone de confort. J’ai soif de réussite et d’apprentissage : chaque nouveau défi est l’occasion de me dépasser et de grandir. Déterminé et tenace, je m’efforce de maintenir un haut niveau d’exigence pour satisfaire mes clients et soutenir la croissance de l’entreprise.
             </p>
             <div class="section-title" style="margin-top: 50px;">
                 <h2>Compétences</h2>
@@ -1509,12 +1524,12 @@
                         <div class="timeline-date">Sept. 2022 - Fév. 2025</div>
                         <h3 class="timeline-title">FONDATEUR, ADSHARE</h3>
                         <ul class="timeline-list">
-                            <li>Conceptualisé et piloté le développement intégral d'une plateforme SaaS innovante, en orchestrant la collaboration entre équipes techniques et commerciales</li>
-                            <li>Structuré un modèle d'affaires B2B avec segmentation client précise et architecture tarifaire optimisée</li>
+                            <li>Conceptualiser et piloter le développement intégral d'une plateforme SaaS innovante, en orchestrant la collaboration entre équipes techniques et commerciales</li>
+                            <li>Structurer un modèle d'affaires B2B avec segmentation client précise et architecture tarifaire optimisée</li>
                             <li>Conquis les premiers clients B2B grâce à une méthodologie commerciale consultative</li>
-                            <li>Implémenté une stratégie marketing digitale générant 4000+ visiteurs qualifiés mensuels et 500+ bêta-testeurs actifs</li>
-                            <li>Déployé des solutions d'analytics avancées et un système de feedback itératif pour maximiser l'expérience utilisateur</li>
-                            <li>Initié des partenariats stratégiques pour amplifier l'écosystème commercial de la plateforme et accélérer la croissance</li>
+                            <li>Implémenter une stratégie marketing digitale générant 4000+ visiteurs qualifiés mensuels et 500+ bêta-testeurs actifs</li>
+                            <li>Déployer des solutions d'analytics avancées et un système de feedback itératif pour maximiser l'expérience utilisateur</li>
+                            <li>Initier des partenariats stratégiques pour amplifier l'écosystème commercial de la plateforme et accélérer la croissance</li>
                         </ul>
                         <div class="stats-bubbles">
                             <div class="stat-bubble">
@@ -1538,12 +1553,12 @@
                         <h3 class="timeline-title">CONSEILLER COMMERCIAL AUTOMOBILE, STELLANTIS</h3>
                         <p class="timeline-subtitle">59</p>
                         <ul class="timeline-list">
-                            <li>Développé et fidélisé un portefeuille dynamique de clients dans un environnement ultra-compétitif</li>
-                            <li>Réalisé des diagnostics personnalisés des besoins clients aboutissant à des recommandations sur-mesure à forte valeur ajoutée</li>
-                            <li>Finalisé des ventes de véhicules d'occasion avec une approche consultative, incluant des démonstrations techniques</li>
-                            <li>Propulsé les ventes de services complémentaires à haute rentabilité (financement, garanties étendues, assurances)</li>
-                            <li>Instauré un programme de suivi client post-vente systématique, optimisant les opportunités de recommandation et de renouvellement</li>
-                            <li>Contribué activement aux événements commerciaux et affiné continuellement les argumentaires de vente en fonction du feedback client</li>
+                            <li>Développer et fidéliser un portefeuille dynamique de clients dans un environnement ultra-compétitif</li>
+                            <li>Réaliser des diagnostics personnalisés des besoins clients aboutissant à des recommandations sur-mesure à forte valeur ajoutée</li>
+                            <li>Finaliser des ventes de véhicules d'occasion avec une approche consultative, incluant des démonstrations techniques</li>
+                            <li>Propulser les ventes de services complémentaires à haute rentabilité (financement, garanties étendues, assurances)</li>
+                            <li>Instaurer un programme de suivi client post-vente systématique, optimisant les opportunités de recommandation et de renouvellement</li>
+                            <li>Contribuer activement aux événements commerciaux et affiner continuellement les argumentaires de vente en fonction du feedback client</li>
                         </ul>
                         <div class="stats-bubbles">
                             <div class="stat-bubble">
@@ -1567,11 +1582,11 @@
                         <h3 class="timeline-title">CONSEILLER COMMERCIAL AUTOMOBILE, VÉHICULES NEUFS, ESPACE SAINT GERMAIN</h3>
                         <p class="timeline-subtitle">78</p>
                         <ul class="timeline-list">
-                            <li>Conseillé une clientèle exigeante en élaborant des solutions de financement personnalisées (LOA, LLD, crédit) adaptées à chaque situation</li>
-                            <li>Orchestré l'intégralité du cycle de vente, de la prospection qualifiée à la livraison méticuleuse, garantissant une expérience client premium</li>
-                            <li>Conçu et animé des événements thématiques et optimisé l'espace d'exposition pour maximiser l'impact visuel et les conversions</li>
-                            <li>Accompagné de manière personnalisée les clients lors des essais routiers, valorisant l'expérience de conduite et les innovations technologiques</li>
-                            <li>Administré avec rigueur les dossiers de vente et généré des rapports détaillés sur les performances commerciales et tendances du marché</li>
+                            <li>Conseiller une clientèle exigeante en élaborant des solutions de financement personnalisées (LOA, LLD, crédit) adaptées à chaque situation</li>
+                            <li>Orchestrer l'intégralité du cycle de vente, de la prospection qualifiée à la livraison méticuleuse, garantissant une expérience client premium</li>
+                            <li>Conçu et animer des événements thématiques et optimisé l'espace d'exposition pour maximiser l'impact visuel et les conversions</li>
+                            <li>Accompagner de manière personnalisée les clients lors des essais routiers, valorisant l'expérience de conduite et les innovations technologiques</li>
+                            <li>Administrer avec rigueur les dossiers de vente et généré des rapports détaillés sur les performances commerciales et tendances du marché</li>
                         </ul>
                     </div>
                 </div>
@@ -1581,10 +1596,10 @@
                         <h3 class="timeline-title">CONSEILLER COMMERCIAL B2B (Stage), AGENCE REXEL</h3>
                         <p class="timeline-subtitle">59</p>
                         <ul class="timeline-list">
-                            <li>Assuré la vente technique au comptoir auprès de professionnels du bâtiment et de l'industrie, dépassant les objectifs mensuels</li>
-                            <li>Prospecté activement le segment B2B, générant des rendez-vous hautement qualifiés et développant un portefeuille clients rentable</li>
-                            <li>Coordonné un événement commercial majeur accueillant 300 visiteurs professionnels avec 15% de taux de conversion effective</li>
-                            <li>Élaboré des supports marketing impactants et structuré des argumentaires techniques ciblés par segment de clientèle</li>
+                            <li>Assurer la vente technique au comptoir auprès de professionnels du bâtiment et de l'industrie, dépassant les objectifs mensuels</li>
+                            <li>Prospecter activement le segment B2B, générant des rendez-vous hautement qualifiés et développant un portefeuille clients rentable</li>
+                            <li>Coordonner un événement commercial majeur accueillant 300 visiteurs professionnels avec 15% de taux de conversion effective</li>
+                            <li>Élaborer des supports marketing impactants et structuré des argumentaires techniques ciblés par segment de clientèle</li>
                         </ul>
                         <div class="stats-bubbles">
                             <div class="stat-bubble">
@@ -1691,7 +1706,7 @@
                     <div class="hobby-icon">
                         <i class="fas fa-globe-americas"></i>
                     </div>
-                    <h3 class="hobby-title">Exploration internationale</h3>
+                    <h3 class="hobby-title">Voyages</h3>
                     <p>États-Unis, Mexique, Asie du Sud-Est</p>
                 </div>
             </div>
@@ -1733,14 +1748,15 @@
                         <p>elmardi.ad@gmail.com</p>
                     </div>
                 </div>
+                <!-- Remplacez votre bloc CV existant par celui-ci -->
                 <div class="contact-item animate-fadeInUp">
                     <div class="contact-icon">
                         <i class="fas fa-file-alt"></i>
                     </div>
-                    <div class="contact-content">
+                    <a href="/img/AdamEl_Mardi_CV.pdf" download class="contact-content" style="text-decoration: none; cursor: pointer;">
                         <h3>CV</h3>
                         <p>Télécharger mon CV au format PDF</p>
-                    </div>
+                    </a>
                 </div>
                 <div class="contact-item animate-fadeInUp">
                     <div class="contact-icon">
